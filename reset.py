@@ -18,7 +18,7 @@ newPassword = "P455w0rd.2020"
 keycloak_openid = KeycloakOpenID(server_url=keycloak_url,
                                  client_id=clientId,
                                  realm_name=keycloak_realm,
-                                 client_secret_key=)
+                                 client_secret_key=clientSecret)
 
 # USERS EMAIL
 users = ["vekora7520@mailart.ws"]
